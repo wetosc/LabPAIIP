@@ -1,0 +1,23 @@
+@font-face {
+	font-family: Nord;
+	src: url(../fonts/nord/nord.ttf);
+}
+@font-face {
+	font-family: SciFly;
+	src: url(../fonts/scifly-sans/scifly-sans.ttf);
+}
+
+.font-nord {
+	font-family: Nord;
+}
+.font-scifly {
+	font-family: SciFly;
+}
+
+.font-large2 {
+	font-size: xx-large;
+}
+
+.font-large {
+	font-size: x-large;
+}
