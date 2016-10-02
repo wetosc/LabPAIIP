@@ -4,6 +4,42 @@
 		"selected_items":
 		[
 			[
+				"fun",
+				"function"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"remo",
+				"removeClass\t.removeClass()"
+			],
+			[
+				"add",
+				"addClass\t.addClass()"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"w",
+				"width\t.width()"
+			],
+			[
+				"th",
+				"this\t$(this)"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
 				"ve",
 				"font-variant-east-asian"
 			],
@@ -55,7 +91,16 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 2173,
+				"buffer_size": 2295,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/image-switcher.js",
+			"settings":
+			{
+				"buffer_size": 839,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -64,7 +109,7 @@
 			"file": "css/main.css",
 			"settings":
 			{
-				"buffer_size": 276,
+				"buffer_size": 353,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -95,7 +140,7 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 104.0,
+		"height": 392.0,
 		"last_filter": "install",
 		"selected_items":
 		[
@@ -108,7 +153,7 @@
 				"Package Control: List Packages"
 			]
 		],
-		"width": 392.0
+		"width": 416.0
 	},
 	"console":
 	{
@@ -130,10 +175,13 @@
 	"expanded_folders":
 	[
 		"/C/Users/Eugenius/Documents/Repository/LabPAIIP",
-		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/css"
+		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/css",
+		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/js"
 	],
 	"file_history":
 	[
+		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/css/main.css",
+		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/js/bootstrap.min.js",
 		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/framework/bootstrap/css/bootstrap-theme.css",
 		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/framework/bootstrap/css/bootstrap.css",
 		"/C/Users/Eugenius/VirtualBox VMs/macOS 10.12 Sierra/macOS 10.12 Sierra.vbox"
@@ -171,7 +219,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -180,15 +228,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2173,
+						"buffer_size": 2295,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1427,
-								1438
+								1511,
+								1511
 							]
 						],
 						"settings":
@@ -198,33 +246,61 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 270.0,
+						"translation.y": 225.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "css/main.css",
+					"file": "js/image-switcher.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 276,
+						"buffer_size": 839,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								269,
-								269
+								688,
+								688
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"auto_name": "",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 353,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								231,
+								231
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -234,7 +310,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "css/colors.css",
 					"semi_transient": false,
 					"settings":
@@ -262,7 +338,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "css/fonts.css",
 					"semi_transient": false,
 					"settings":
@@ -286,7 +362,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -294,7 +370,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 34.0
 	},
 	"input":
 	{

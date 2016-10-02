@@ -44,16 +44,17 @@
 
 	<div class="content-main">	
 
-		<img src="image/background/bg-creative.jpg" class="img-responsive center-block">
-
-		<button type="button" class="btn btn-success btn-lg side-button go-right">
+		<div id="img-container">
+			<img src="image/background/bg-creative.jpg" class="img-responsive center-block main">
+			<img src="image/background/bg-html-code.jpeg" class="img-responsive center-block">
+			<img src="image/background/bg-grayscale.jpg" class="img-responsive center-block">
+		</div>
+		
+		<button type="button" class="btn btn-success btn-lg side-button go-right" id="go-right">
 			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 		</button>
 
-		<button type="button" class="btn btn-success btn-lg side-button go-right">
-			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-		</button>
-		<button type="button" class="btn btn-success btn-lg side-button go-left">
+		<button type="button" class="btn btn-success btn-lg side-button go-left" id="go-left">
 			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> 
 		</button>
 
@@ -62,5 +63,7 @@
 	<!-- Scripts are bellow -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/image-switcher.js"></script>
+
 </body>
 </html>

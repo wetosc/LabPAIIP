@@ -11,6 +11,14 @@
 	margin-left: 20px;
 }
 
+
+
+#img-container img{
+	float: left;
+	position: absolute;
+}
+
+/*Side buttons*/
 .side-button {
 	position: absolute;
 	top: 50%;
