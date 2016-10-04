@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"cle",
+				"clickLeft"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
 				"fun",
 				"function"
 			],
@@ -100,7 +108,7 @@
 			"file": "js/image-switcher.js",
 			"settings":
 			{
-				"buffer_size": 839,
+				"buffer_size": 1298,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -109,7 +117,7 @@
 			"file": "css/main.css",
 			"settings":
 			{
-				"buffer_size": 353,
+				"buffer_size": 374,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -235,8 +243,8 @@
 						"selection":
 						[
 							[
-								1511,
-								1511
+								1422,
+								1409
 							]
 						],
 						"settings":
@@ -246,10 +254,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 225.0,
+						"translation.y": 375.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -258,15 +266,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 839,
+						"buffer_size": 1298,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								688,
-								688
+								789,
+								789
 							]
 						],
 						"settings":
@@ -275,7 +283,7 @@
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 225.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -287,15 +295,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 353,
+						"buffer_size": 374,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								231,
-								231
+								272,
+								272
 							]
 						],
 						"settings":
@@ -306,7 +314,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{

@@ -13,8 +13,11 @@
 
 
 
-#img-container img{
-	float: left;
+#img-container {
+	width: 100%;
+}
+
+#img-container img {
 	position: absolute;
 }
 
