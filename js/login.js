@@ -16,4 +16,10 @@ $(document).ready(function() {
 			passwordField[0].setCustomValidity("")
 		}
 	} )
+
+	passwordField.on("input", function(){
+		if (passwordField.val().length >= 6){
+			passwordField[0].setCustomValidity("")
+		}
+	} )
 });

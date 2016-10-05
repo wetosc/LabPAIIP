@@ -163,7 +163,16 @@
 			"file": "login.html",
 			"settings":
 			{
-				"buffer_size": 2310,
+				"buffer_size": 2357,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/login.js",
+			"settings":
+			{
+				"buffer_size": 513,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -173,16 +182,6 @@
 			"settings":
 			{
 				"buffer_size": 142,
-				"encoding": "UTF-8",
-				"line_ending": "Windows",
-				"name": "input:invalid {"
-			}
-		},
-		{
-			"file": "js/login.js",
-			"settings":
-			{
-				"buffer_size": 382,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -235,14 +234,15 @@
 	],
 	"file_history":
 	[
-		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/css/main.css",
 		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/js/login.js",
+		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/css/login.css",
+		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/login.html",
+		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/css/main.css",
 		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/about.html",
 		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/js/about.js",
 		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/css/about.css",
 		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/js/image-switcher.js",
 		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/css/colors.css",
-		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/login.html",
 		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/index.html",
 		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/css/fonts.css",
 		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/css/image-switcher.css",
@@ -284,7 +284,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -293,15 +293,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2310,
+						"buffer_size": 2357,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1971,
-								1971
+								444,
+								444
 							]
 						],
 						"settings":
@@ -313,53 +313,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "css/login.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 142,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								28,
-								28
-							]
-						],
-						"settings":
-						{
-							"auto_name": "input:invalid {",
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "js/login.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 382,
+						"buffer_size": 513,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								121,
-								121
+								403,
+								403
 							]
 						],
 						"settings":
@@ -372,6 +343,34 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/login.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 142,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								102,
+								102
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
