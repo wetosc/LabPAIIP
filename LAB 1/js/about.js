@@ -1,5 +1,6 @@
 
-$(document).ready(function() { 
+$(document).ready(function() {
+	refreshTime() 
 	setTimeout(refreshTime, 30000)
 });
 
