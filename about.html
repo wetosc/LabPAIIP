@@ -10,12 +10,13 @@
 	<link href="css/main.css" rel="stylesheet">
 	<link href="css/colors.css" rel="stylesheet">
 	<link href="css/fonts.css" rel="stylesheet">
-	<link href="css/image-switcher.css" rel="stylesheet">
 
-	<title>My humble portfolio</title>
+	<link href="css/about.css" rel="stylesheet">
+
+	<title>About</title>
 </head>
 
-<body>
+<body class="bg-carrot">
 	<div class="content-header">
 
 		<nav class="navbar navbar-fixed-top bg-clear bg-faded">
@@ -43,28 +44,32 @@
 		</nav>
 	</div>
 
-	<div class="content-main">	
-
-		<div id="img-container">
-			<img src="image/background/bg-creative.jpg" class="img-responsive center-block main">
-			<img src="image/background/bg-html-code.jpeg" class="img-responsive center-block">
-			<img src="image/background/bg-grayscale.jpg" class="img-responsive center-block">
+	<div class="content-main">
+		<div style="height: 50px"></div>
+		<div class="about-container bg-midnightblue color-white">
+			<h2 class="font-nord">Purpose of this site</h2>
+			<h4 class="font-scifly"> This site was created as a PAIIP lab. Still, it might grow in something more.</h4>
 		</div>
-		
-		<button type="button" class="btn btn-success btn-lg side-button go-right" id="go-right">
-			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-		</button>
-
-		<button type="button" class="btn btn-success btn-lg side-button go-left" id="go-left">
-			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> 
-		</button>
-
+		<div>
+			<div class="about-container bg-midnightblue color-white">
+				<h2 class="font-nord">Author</h2>
+				<h4 class="font-scifly">The creator of this site is Cernei Eugeniu, from FI-141.</h4>
+			</div>
+		</div>
+		<div>
+			<div class="about-container bg-midnightblue color-white">
+				<h2 class="font-nord">Date & Time</h2>
+				<h4 class="font-scifly">
+					Date: <span id="about-date"></span> <br>
+					Time: <span id="about-time"></span>
+				</h4>
+			</div>
+		</div>
 	</div>
-
 	<!-- Scripts are bellow -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<script src="js/image-switcher.js"></script>
+	<script src="js/about.js"></script>
 
 </body>
 </html>

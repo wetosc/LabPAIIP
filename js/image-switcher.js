@@ -11,6 +11,8 @@ function setupSwitcher(){
 		}
 	})
 
+	setTimeout(clickRight, 5000)
+	
 	$("#go-right").click(clickRight)
 	$("#go-left").click(clickLeft)
 }
