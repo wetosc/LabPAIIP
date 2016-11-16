@@ -1,0 +1,371 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"a",
+				"auto"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"con",
+				"conn"
+			],
+			[
+				"p",
+				"php"
+			],
+			[
+				"nu",
+				"num_rows"
+			],
+			[
+				"getDa",
+				"getDateString"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"cli",
+				"clickRight"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"fon",
+				"font-nord"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"fo",
+				"font-nord"
+			],
+			[
+				"font",
+				"font-nord"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"colo",
+				"color-midnightblue"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"log",
+				"login"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"ima",
+				"image-switcher"
+			],
+			[
+				"cle",
+				"clickLeft"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"remo",
+				"removeClass\t.removeClass()"
+			],
+			[
+				"add",
+				"addClass\t.addClass()"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"w",
+				"width\t.width()"
+			],
+			[
+				"th",
+				"this\t$(this)"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"ve",
+				"font-variant-east-asian"
+			],
+			[
+				"l",
+				"li\tTag"
+			],
+			[
+				"r",
+				"rgba()"
+			],
+			[
+				"bg",
+				"bg-creative"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"nav",
+				"navbar"
+			],
+			[
+				"na",
+				"navbar"
+			],
+			[
+				"f",
+				"font-nord"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www",
+		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/css"
+	],
+	"file_history":
+	[
+		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/memo.php",
+		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/css/memo.css",
+		"/C/Program Files (x86)/EasyPHP-Devserver-16.1/eds-modules/phpmyadmin4551x161104021146/test/test_data/config.inc.php",
+		"/C/Program Files (x86)/EasyPHP-Devserver-16.1/eds-modules/phpmyadmin4551x161104021146/setup/frames/config.inc.php",
+		"/C/Program Files (x86)/EasyPHP-Devserver-16.1/eds-modules/phpmyadmin4551x161104021146/config.inc.php",
+		"/C/Program Files (x86)/EasyPHP-Devserver-16.1/eds-modules/phpmyadmin4551x161104021146/setup/config.php",
+		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/composer.json",
+		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/index.html",
+		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/login.php",
+		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/css/colors.css",
+		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/js/login.js",
+		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/css/login.css",
+		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/login.html",
+		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/js/login.js",
+		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/css/login.css",
+		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/login.html",
+		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/css/main.css",
+		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/about.html",
+		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/js/about.js",
+		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/css/about.css",
+		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/js/image-switcher.js",
+		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/css/colors.css",
+		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/index.html",
+		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/css/fonts.css",
+		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/css/image-switcher.css",
+		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/js/bootstrap.min.js",
+		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/framework/bootstrap/css/bootstrap-theme.css",
+		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/framework/bootstrap/css/bootstrap.css",
+		"/C/Users/Eugenius/VirtualBox VMs/macOS 10.12 Sierra/macOS 10.12 Sierra.vbox"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 246.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

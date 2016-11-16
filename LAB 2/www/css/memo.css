@@ -1,0 +1,10 @@
+.memo-panel {
+	margin: 10px;
+}
+.memo-column {
+	width: 30%;
+}
+table {
+	margin: 20px auto;
+	width: 80%;
+}

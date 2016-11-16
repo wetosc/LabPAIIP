@@ -1,0 +1,25 @@
+#img-container {
+	width: 100%;
+}
+
+#img-container img {
+	position: absolute;
+	width: 0;
+}
+
+#img-container img.main {
+	width: 100%;
+}
+
+/*Side buttons*/
+.side-button {
+	position: absolute;
+	top: 50%;
+}
+
+.go-right {
+	right: 8px;
+}
+.go-left {
+	left: 8px;
+}

@@ -1,0 +1,11 @@
+input:invalid {
+	border: 1px red;
+}
+
+.login-container {
+	position: relative;
+	top: 15em;
+	width: 30em;
+	padding: 20px;
+	border-radius: 15px;
+}
