@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"pos",
+				"POST"
+			],
+			[
+				"pas",
+				"password"
+			],
+			[
 				"a",
 				"auto"
 			],
@@ -171,6 +179,15 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "login.php",
+			"settings":
+			{
+				"buffer_size": 3817,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -219,6 +236,7 @@
 	"file_history":
 	[
 		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/memo.php",
+		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/student.sql",
 		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/css/memo.css",
 		"/C/Program Files (x86)/EasyPHP-Devserver-16.1/eds-modules/phpmyadmin4551x161104021146/test/test_data/config.inc.php",
 		"/C/Program Files (x86)/EasyPHP-Devserver-16.1/eds-modules/phpmyadmin4551x161104021146/setup/frames/config.inc.php",
@@ -281,8 +299,39 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "login.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3817,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1052,
+								1061
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 77.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],

@@ -19,20 +19,35 @@
 <body class="bg-belizehole">
 
     <?php
-    $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $db = "student";
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        $q_email = $_POST["email"]; 
+        $q_password = $_POST["password"];
 
-    $conn = new mysqli($servername, $username, $password, $db);
-    if ($conn->connect_error) {
-        echo ("Connection failed: " . $conn->connect_error);
+        $servername = "localhost";
+        $username = "root";
+        $password = "";
+        $db = "student";
+
+        $conn = new mysqli($servername, $username, $password, $db);
+        if ($conn->connect_error) {
+            echo ("Connection failed: " . $conn->connect_error);
+        }
+
+        $query = $conn->prepare('SELECT * FROM employees WHERE name = ?');
+        $query->bind_param('ss', $q_email, $q_password);
+
+        $query->execute();
+
+        $result = $query->get_result();
+        if ($row = $result->fetch_assoc()) {
+            echo "GOOD - ".$row["username"];
+        }
+
+        echo $conn->error;
+
     }
 
-    $sql = "select * from memo;";
-    $result = $conn->query($sql);
-    
-    echo $conn->error;
+
     ?>
 
     <div class="content-header">
@@ -67,7 +82,7 @@
             <div class="center-block login-container bg-peterriver font-nord">
                 <h2 class="font-scifly">Log in</h2>
                 <hr>
-                <form action="login.php" method="get">
+                <form action="login.php" method="POST">
                     <div class="form-group has-danger">
                         <label for="emailField">Email address</label>
                         <input type="email" class="form-control form-control-danger" id="emailField" placeholder="Enter email" name="email"
