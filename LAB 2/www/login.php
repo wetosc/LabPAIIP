@@ -19,6 +19,7 @@
 <body class="bg-belizehole">
 
     <?php
+    session_start(); 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $q_email = $_POST["email"]; 
         $q_password = $_POST["password"];
@@ -33,18 +34,18 @@
             echo ("Connection failed: " . $conn->connect_error);
         }
 
-        $query = $conn->prepare('SELECT * FROM employees WHERE name = ?');
+        $query = $conn->prepare('SELECT * FROM user WHERE email = ? and password = ?');
         $query->bind_param('ss', $q_email, $q_password);
 
         $query->execute();
 
         $result = $query->get_result();
         if ($row = $result->fetch_assoc()) {
-            echo "GOOD - ".$row["username"];
+            $_SESSION['user'] = $row["username"]."&".$row["id"];
+            $_SESSION['username'] = $row["username"];
         }
 
-        echo $conn->error;
-
+        echo $conn->error;    
     }
 
 
@@ -80,7 +81,12 @@
 
         <div class="content-main">
             <div class="center-block login-container bg-peterriver font-nord">
-                <h2 class="font-scifly">Log in</h2>
+
+                <?php 
+
+                if (!isset($_SESSION['user'])) {
+
+                echo '<h2 class="font-scifly">Log in</h2>
                 <hr>
                 <form action="login.php" method="POST">
                     <div class="form-group has-danger">
@@ -93,7 +99,14 @@
                         <input type="password" class="form-control" id="passwordField" placeholder="Password" name="password" required>
                     </div>
                     <button type="submit" class="btn btn-primary center-block">Log In</button>
-                </form>
+                </form>';
+
+                } else {
+                    echo '<h2 class="font-scifly"> Welcome, '.$_SESSION['username'].'</h2>';
+                }
+
+                ?>
+
             </div>
         </div>
 

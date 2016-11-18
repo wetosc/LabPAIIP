@@ -40,7 +40,7 @@
 
 				<li><a class="font-large color-midnightblue"  href="about.html">about</a></li>	
 
-				<li><a class="font-large color-midnightblue" href="login.html">log in</a></li>	
+				<li><a class="font-large color-midnightblue" href="login.php">log in</a></li>	
 			</ul>
 		</nav>
 	</div>
@@ -80,6 +80,9 @@
 				<div class="panel panel-default memo-panel">
 					<div class="panel-heading">
 						<h3 class="panel-title">'.$row["title"].'</h3>
+						<button type="button" class="btn btn-default" onclick="removeMemo('.$row["id"].')">
+							<span class="glyphicon glyphicon-trash"></span>
+						</button>
 					</div>
 					<div class="panel-body">'
 						.$row["body"].
@@ -94,10 +97,11 @@
 
 		?>
 	</div>
-	
+
 	<!-- Scripts are bellow -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/memo-edit.js"></script>
 
 </body>
 </html>
