@@ -1,3 +1,8 @@
+.panel-heading {
+	position: relative;
+	height: 3em;
+}
+
 .memo-panel {
 	margin: 10px;
 }
@@ -7,4 +12,10 @@
 table {
 	margin: 20px auto;
 	width: 80%;
+}
+
+.remove-button {
+	position: absolute;
+	right: -12px;
+	top: -7px;
 }

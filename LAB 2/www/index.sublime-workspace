@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"q_",
+				"q_author"
+			],
+			[
+				"form",
+				"form-control"
+			],
+			[
+				"cont",
+				"content-main"
+			],
+			[
 				"pos",
 				"POST"
 			],
@@ -180,12 +192,20 @@
 	"buffers":
 	[
 		{
+			"file": "memo-create.php",
+			"settings":
+			{
+				"buffer_size": 2891,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "login.php",
 			"settings":
 			{
-				"buffer_size": 3817,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"buffer_size": 4696,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -235,17 +255,22 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/css/colors.css",
+		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/css/main.css",
+		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/login.php",
+		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/logout.php",
+		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/sql/test.sql",
+		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/about.html",
+		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/memo-create.php",
 		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/memo.php",
-		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/student.sql",
 		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/css/memo.css",
+		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/student.sql",
 		"/C/Program Files (x86)/EasyPHP-Devserver-16.1/eds-modules/phpmyadmin4551x161104021146/test/test_data/config.inc.php",
 		"/C/Program Files (x86)/EasyPHP-Devserver-16.1/eds-modules/phpmyadmin4551x161104021146/setup/frames/config.inc.php",
 		"/C/Program Files (x86)/EasyPHP-Devserver-16.1/eds-modules/phpmyadmin4551x161104021146/config.inc.php",
 		"/C/Program Files (x86)/EasyPHP-Devserver-16.1/eds-modules/phpmyadmin4551x161104021146/setup/config.php",
 		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/composer.json",
 		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/index.html",
-		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/login.php",
-		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/css/colors.css",
 		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/js/login.js",
 		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/css/login.css",
 		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/login.html",
@@ -304,19 +329,48 @@
 			[
 				{
 					"buffer": 0,
-					"file": "login.php",
+					"file": "memo-create.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3817,
+						"buffer_size": 2891,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1052,
-								1061
+								793,
+								793
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "login.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 4696,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								673,
+								688
 							]
 						],
 						"settings":
@@ -326,10 +380,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 77.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]

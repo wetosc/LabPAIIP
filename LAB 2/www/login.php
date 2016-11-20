@@ -74,7 +74,15 @@
 
                     <li><a class="font-large color-midnightblue" href="about.html">about</a></li>
 
-                    <li><a class="font-large color-midnightblue" href="login.html">log in</a></li>
+                    <li>
+                        <?php 
+                        if (!isset($_SESSION['user'])) {
+                            echo '<a class="font-large color-midnightblue" href="login.php">log in</a>';
+                        } else {
+                            echo '<a class="font-large color-midnightblue" href="logout.php">log out</a>';
+                        }
+                        ?>
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -86,33 +94,35 @@
 
                 if (!isset($_SESSION['user'])) {
 
-                echo '<h2 class="font-scifly">Log in</h2>
-                <hr>
-                <form action="login.php" method="POST">
-                    <div class="form-group has-danger">
-                        <label for="emailField">Email address</label>
-                        <input type="email" class="form-control form-control-danger" id="emailField" placeholder="Enter email" name="email"
-                        required>
-                    </div>
-                    <div class="form-group">
-                        <label for="passwordField">Password</label>
-                        <input type="password" class="form-control" id="passwordField" placeholder="Password" name="password" required>
-                    </div>
-                    <button type="submit" class="btn btn-primary center-block">Log In</button>
-                </form>';
+                    echo '<h2 class="font-scifly">Log in</h2>
+                    <hr>
+                    <form action="login.php" method="POST">
+                        <div class="form-group has-danger">
+                            <label for="emailField">Email address</label>
+                            <input type="email" class="form-control form-control-danger" id="emailField" placeholder="Enter email" name="email"
+                            required>
+                        </div>
+                        <div class="form-group">
+                            <label for="passwordField">Password</label>
+                            <input type="password" class="form-control" id="passwordField" placeholder="Password" name="password" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary center-block">Log In</button>
+                    </form>';
 
                 } else {
-                    echo '<h2 class="font-scifly"> Welcome, '.$_SESSION['username'].'</h2>';
-                }
+                    echo '<h2 class="font-scifly"> Welcome, '.$_SESSION['username'].'</h2>
+                    <a href="memo-create.php"><h2 class="font-scifly">Create new memo.</h2>';
+                    echo '<a href="memo-json.php"><h2 class="font-scifly">Save memos to json.</h2>';
+                    }
 
-                ?>
+                    ?>
 
+                </div>
             </div>
-        </div>
 
-        <!-- Scripts are bellow -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/login.js"></script>
-    </body>
-    </html>
+            <!-- Scripts are bellow -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <script src="js/login.js"></script>
+        </body>
+        </html>

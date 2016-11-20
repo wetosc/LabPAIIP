@@ -50,6 +50,8 @@
 		
 
 		<?php
+		session_start(); 
+		
 		$servername = "localhost";
 		$username = "root";
 		$password = "";
@@ -79,11 +81,13 @@
 				echo '<td class="memo-column">
 				<div class="panel panel-default memo-panel">
 					<div class="panel-heading">
-						<h3 class="panel-title">'.$row["title"].'</h3>
-						<button type="button" class="btn btn-default" onclick="removeMemo('.$row["id"].')">
+						<h3 class="panel-title">'.$row["title"].'</h3>';
+						if (isset($_SESSION['user'])) { 
+							echo '<button type="button" class="btn btn-default remove-button" onclick="removeMemo('.$row["id"].')">
 							<span class="glyphicon glyphicon-trash"></span>
-						</button>
-					</div>
+						</button>'; 
+					}
+					echo '</div>
 					<div class="panel-body">'
 						.$row["body"].
 						'<br>© '.$row["author"].'</div>
