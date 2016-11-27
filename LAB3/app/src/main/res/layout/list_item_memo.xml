@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        card_view:cardCornerRadius="4dp"
+        android:layout_margin="8dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cat ipsum dolor sit amet, eat grass, throw it back up where is my slave?"
+                android:textSize="18sp"
+                android:textStyle="normal|bold"
+                android:layout_margin="8dp" />
+
+            <TextView
+                android:text="I'm getting hungry but when in doubt, wash for always hungry. Meowwww where is my slave? I'm getting hungry and plan steps for world domination loves cheeseburgers, all of a sudden cat goes crazy, or sleep in the bathroom sink. Toy mouse squeak roll over. "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/body"
+                android:layout_margin="10dp" />
+
+            <TextView
+                android:text="©author"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/author"
+                android:layout_margin="10dp" />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

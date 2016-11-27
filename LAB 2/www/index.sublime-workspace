@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"mem",
+				"memos"
+			],
+			[
 				"q_",
 				"q_author"
 			],
@@ -192,20 +196,29 @@
 	"buffers":
 	[
 		{
-			"file": "memo-create.php",
+			"file": "login.php",
 			"settings":
 			{
-				"buffer_size": 2891,
+				"buffer_size": 4797,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "memo-json.php",
+			"settings":
+			{
+				"buffer_size": 764,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "login.php",
+			"file": "logout.php",
 			"settings":
 			{
-				"buffer_size": 4696,
-				"line_ending": "Unix"
+				"buffer_size": 86,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -255,13 +268,13 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/memo-create.php",
 		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/css/colors.css",
 		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/css/main.css",
 		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/login.php",
 		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/logout.php",
 		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/sql/test.sql",
 		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/about.html",
-		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/memo-create.php",
 		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/memo.php",
 		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/css/memo.css",
 		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/student.sql",
@@ -324,30 +337,59 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "memo-create.php",
+					"file": "login.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2891,
+						"buffer_size": 4797,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								793,
-								793
+								742,
+								1171
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "memo-json.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 764,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								641,
+								641
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -357,27 +399,25 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "login.php",
+					"buffer": 2,
+					"file": "logout.php",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 4696,
+						"buffer_size": 86,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								673,
-								688
+								73,
+								43
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
