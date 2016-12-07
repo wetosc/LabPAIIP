@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="App.Login"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="#FFECF0F1">
+        <TextBlock x:Name="label1" HorizontalAlignment="Center" Margin="0,-297,0,0" TextWrapping="Wrap" Text="Login" VerticalAlignment="Center" FontSize="24"/>
+        <TextBox x:Name="emailField" HorizontalAlignment="Center" Margin="0,-95,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" PlaceholderText="Email" Width="200" InputScope="EmailSmtpAddress"/>
+        <Button x:Name="submitButton" Content="Submit" HorizontalAlignment="Center" Margin="0,0,0,150" VerticalAlignment="Bottom" Background="#FF2ECC71" Click="button_Click"/>
+        <PasswordBox x:Name="passwordField" HorizontalAlignment="Center" Margin="0,96,0,0" VerticalAlignment="Center" Width="200" PlaceholderText="Password"/>
+    </Grid>
+</Page>

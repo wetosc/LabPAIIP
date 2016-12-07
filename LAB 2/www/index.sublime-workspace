@@ -200,25 +200,7 @@
 			"settings":
 			{
 				"buffer_size": 4797,
-				"encoding": "UTF-8",
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "memo-json.php",
-			"settings":
-			{
-				"buffer_size": 764,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "logout.php",
-			"settings":
-			{
-				"buffer_size": 86,
-				"line_ending": "Windows"
 			}
 		}
 	],
@@ -268,10 +250,13 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/composer.json",
+		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/memo-handler.php",
+		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/login.php",
+		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/memo-json.php",
 		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/memo-create.php",
 		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/css/colors.css",
 		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/css/main.css",
-		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/login.php",
 		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/logout.php",
 		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/sql/test.sql",
 		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/about.html",
@@ -282,7 +267,6 @@
 		"/C/Program Files (x86)/EasyPHP-Devserver-16.1/eds-modules/phpmyadmin4551x161104021146/setup/frames/config.inc.php",
 		"/C/Program Files (x86)/EasyPHP-Devserver-16.1/eds-modules/phpmyadmin4551x161104021146/config.inc.php",
 		"/C/Program Files (x86)/EasyPHP-Devserver-16.1/eds-modules/phpmyadmin4551x161104021146/setup/config.php",
-		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/composer.json",
 		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/index.html",
 		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/js/login.js",
 		"/C/Users/Eugenius/Documents/Repository/LabPAIIP/LAB 2/www/css/login.css",
@@ -337,13 +321,13 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
 					"file": "login.php",
-					"semi_transient": false,
+					"semi_transient": true,
 					"settings":
 					{
 						"buffer_size": 4797,
@@ -353,8 +337,8 @@
 						"selection":
 						[
 							[
-								742,
-								1171
+								815,
+								816
 							]
 						],
 						"settings":
@@ -364,66 +348,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "memo-json.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 764,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								641,
-								641
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1026.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "logout.php",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 86,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								73,
-								43
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]
