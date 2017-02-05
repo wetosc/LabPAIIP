@@ -31,9 +31,9 @@ namespace App
         {
             if (emailField.Text == "a@b.com" && passwordField.Password == "abcdef")
             {
-                
+                this.Frame.Navigate(typeof(Main));
             }
-            this.Frame.Navigate(typeof(Main));
+
         }
 
     }
